@@ -1,0 +1,2 @@
+# Tidak ada dependensi eksternal — program ini murni Python stdlib (3.8+).
+# Tidak perlu pip install apa pun.
