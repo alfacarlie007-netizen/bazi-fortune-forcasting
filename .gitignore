@@ -6,3 +6,6 @@ venv/
 *.egg-info/
 .DS_Store
 hasil_bazi.txt
+
+# laporan output lokal
+hasil_*.txt
