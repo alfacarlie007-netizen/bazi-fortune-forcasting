@@ -921,7 +921,12 @@ def _interact(a: str, b: str) -> list:
     g = _SANHE_GROUP.get(a)
     if g and b in SANHE[a][1]:
         flags.append("三合")
-    if (a in ZIXING and a == b) or ({a, b} in [set(x) for x in XING_GROUPS] and a != b):
+    # 三刑: pasangan BEDA dalam satu grup (寅巳申 / 丑戌未 / 子卯);
+    # 自刑: cabang sama yang termasuk {辰,午,酉,亥}.
+    # CATATAN: harus subset-check, BUKAN kesetaraan set — pasangan 2 elemen
+    # tidak akan pernah sama dengan grup 3 elemen ({寅,巳,申} dll), sehingga
+    # bug lama `{a,b} in [set(x) ...]` hanya menangkap 子卯. (fix 2026-08-20)
+    if (a in ZIXING and a == b) or (a != b and any({a, b} <= set(x) for x in XING_GROUPS)):
         flags.append("刑")
     if LIUHAI.get(a) == b:
         flags.append("害")

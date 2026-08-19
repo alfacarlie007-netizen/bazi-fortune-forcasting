@@ -1,0 +1,457 @@
+=================== BAGAN BAZI (四柱) — RAMALAN NASIB ====================
+
+  Tanggal lahir (Masehi) : 13 March 2013
+  Jam lahir              : 23:13
+  Waktu matahari sejati  : 13 March 2013 23:34  (koreksi bujur 110.42°E, zona UTC+7)
+  Jenis kelamin          : wanita
+  Kota lahir             : semarang
+  Bagan lengkap          : 癸巳乙卯己卯甲子
+
+========================= 1. EMPAT PILAR (四柱) ==========================
+  Pilar    Batang   Unsur    Cabang   Unsur Cbg  十神 Batang 
+  --------------------------------------------------------------------
+  Tahun    癸       水       巳       火         偏财        
+  Bulan    乙       木       卯       木         七杀        
+  Hari     己       土       卯       木         比肩        
+  Jam      甲       木       子       水         正官        
+  --------------------------------------------------------------------
+
+  Tahun柱 : 癸巳  (水 Yin / 火)
+      Na Yin       : 长流水
+      藏干        : 丙(火,正印,0.6), 庚(金,伤官,0.3), 戊(土,劫财,0.1)
+      十神 batang : 偏财   |   十神 cabang (qi utama): 正印
+      神煞        : 驿马
+
+  Bulan柱 : 乙卯  (木 Yin / 木)
+      Na Yin       : 大溪水
+      藏干        : 乙(木,七杀,0.6)
+      十神 batang : 七杀   |   十神 cabang (qi utama): 七杀
+      神煞        : 将星
+
+  Hari柱 : 己卯  (土 Yin / 木)
+      Na Yin       : 城头土
+      藏干        : 乙(木,七杀,0.6)
+      十神 batang : 比肩   |   十神 cabang (qi utama): 七杀
+      神煞        : 将星
+
+  Jam柱 : 甲子  (木 Yang / 水)
+      Na Yin       : 海中金
+      藏干        : 癸(水,偏财,0.6)
+      十神 batang : 正官   |   十神 cabang (qi utama): 偏财
+      神煞        : 天乙贵人, 桃花
+
+
+======================== 2. ANALISIS UNSUR (五行) ========================
+  Distribusi kekuatan 五行 (batang berbobot 1.0; cabang = qi tersembunyi 0.6/0.3/0.1; bonus 月令 +1.2):
+
+     木 Kayu  ██████████░░░░░░░░   4.4  (55.0%)
+     水 Air   ████░░░░░░░░░░░░░░   1.6  (20.0%)
+     土 Tanah ██░░░░░░░░░░░░░░░░   1.1  (13.8%)
+     火 Api   █░░░░░░░░░░░░░░░░░   0.6  ( 7.5%)
+     金 Logam █░░░░░░░░░░░░░░░░░   0.3  ( 3.8%)
+
+  Siklus 生 (melahirkan): Kayu → Api → Tanah → Logam → Air → Kayu
+  Siklus 克 (menguasai):  Kayu克Tanah, Tanah克Air, Air克Api, Api克Logam, Logam克Kayu
+
+  → Unsur terkuat: Kayu (木);  terlemah: Logam (金).
+
+  Rincian bobot per posisi:
+     Tahun: batang:癸:水(1), cabang:巳(丙):火(0.6), cabang:巳(庚):金(0.3), cabang:巳(戊):土(0.1)
+     Bulan: batang:乙:木(1), cabang:卯(乙):木(0.6)
+     Hari: batang:己:土(1), cabang:卯(乙):木(0.6)
+     Jam: batang:甲:木(1), cabang:子(癸):水(0.6)
+
+===================== 3. KEKUATAN HARI UTAMA (日主) ======================
+  Hari Utama (日主): 己 (Tanah) — pribadi 土 seperti dijelaskan di atas.
+
+  得令 (musim)   : tidak 得令 — bulan lahir berunsur Kayu
+  得地 (akar)    : skor akar unsur Hari Utama di cabang = 0.10
+  得势 (dukungan): skor dukungan sesama unsur + unsur pelahir = 1.70
+  Porsi kekuatan : 13.8% dari total kekuatan bagan
+
+  Verdict: LEMAH
+  Hari Utama Anda LEMAH — pribadi yang sensitif dan membutuhkan dukungan. Keberuntungan datang dari belajar (印), kerja sama, dan lingkungan yang mendukung. Jangan memaksakan diri sendirian.
+
+  Kepribadian 土: Pribadi kokoh seperti tanah — stabil, dapat dipercaya, setia, praktis, dan selalu menepati janji. Kelemahan: kaku, lambat berubah, dan kadang terlalu banyak khawatir.
+
+================== 4. UNSUR KEBERUNTUNGAN (喜用神 & 忌神) ===================
+  Berdasarkan metode 扶抑 (menyeimbangkan kekuatan):
+
+  喜用神 (unsur keberuntungan) : 火, 土  (Api, Tanah)
+  忌神   (unsur penghambat)    : 木, 水, 金  (Kayu, Air, Logam)
+
+  Panduan praktis:
+     Unsur Api (火): warna merah/oranye, angka 2, 7, arah Selatan.
+     Unsur Tanah (土): warna kuning/cokelat, angka 5, 10, arah Tengah.
+
+  Catatan 调候 (penyesuaian iklim): 
+     tidak ada penyesuaian iklim khusus; gunakan panduan 喜用 di atas.
+
+===================== 5. PROFIL 十神 (Sepuluh Dewa) ======================
+  Kemunculan 十神 dalam bagan (batang=1.0, qi cabang sesuai bobot):
+
+     七杀   (Bintang Penakluk)  2.2  (32.4%)  — ambisius, berani, tahan tekanan; unggul di medan sulit. Butuh saluran sehat untuk stres (olahraga/hobi).
+     偏财   (Harta Sampingan)  1.6  (23.5%)  — berbakat bisnis, dermawan, kharismatik; rezeki besar kadang datang tak terduga. Gemar gaya hidup nyaman.
+     比肩   (Saudara Sejati)  1.0  (14.7%)  — mandiri, pekerja keras, setia kawan; suka bersaing sehat. Hati-hati: keras kepala dan sulit meminta bantuan.
+     正官   (Bintang Pejabat)  1.0  (14.7%)  — disiplin, bertanggung jawab, menjunjung aturan; cocok untuk karier formal dan jabatan.
+     正印   (Bintang Sumber Langsung)  0.6  ( 8.8%)  — suka belajar, bijaksana, sering dilindungi nasib baik lewat pendidikan, dokumen, dan figur senior.
+     伤官   (Bintang Luka)  0.3  ( 4.4%)  — cerdas, inovatif, ekspresif; berbakat seni/teknologi. Kurang sabar dengan aturan dan atasan.
+     劫财   (Saudara Perebut)  0.1  ( 1.5%)  — energik, berani, suka menolong, tetapi boros. Waspadai pinjam-meminjam uang dan pengeluaran impulsif.
+
+  → Pola dominan: Bintang Penakluk, Harta Sampingan. Sifat ini paling menonjol dalam kepribadian dan arah hidup Anda.
+
+========================== 6. 神煞, 空亡, 胎元 & 命宫 ==========================
+     Tahun柱 (巳): 驿马 — kuda pos — suka bepergian; karier melibatkan mobilitas/perantauan
+     Bulan柱 (卯): 将星 — bintang jenderal — jiwa kepemimpinan dan wibawa alami
+     Hari柱 (卯): 将星 — bintang jenderal — jiwa kepemimpinan dan wibawa alami
+     Jam柱 (子): 天乙贵人 — penolong agung — sering selamat dari kesulitan dan dibantu orang berpengaruh
+     Jam柱 (子): 桃花 — bunga cinta — menarik & karismatik; waspadai godaan dan drama asmara
+
+  空亡 (cabang 'kosong'): 申, 酉 — pengaruh cabang ini dianggap melemah/hampa pada periode yang bersesuaian.
+  胎元 (asal janin) : 丙午 — gambaran pengaruh masa kandungan.
+  命宫 (istana takdir): 辛申 — gambaran 'rumah' bakat utama Anda.
+
+====================== 7. 大运 — SIKLUS 10 TAHUNAN =======================
+  Arah 大运: 顺行 MAJU — pilar bergeser maju dari pilar bulan
+  Usia mulai 大运 pertama: 7 tahun (±13 May 2020).
+
+  No   Pilar    Rentang Usia Rentang Tahun 十神     Kualitas          
+  --------------------------------------------------------------------
+  1    丙辰     7-16         2020-2029    正印     selaras           
+  2    丁巳     17-26        2030-2039    偏印     selaras           
+  3    戊午     27-36        2040-2049    劫财     selaras           
+  4    己未     37-46        2050-2059    比肩     selaras           
+  5    庚申     47-56        2060-2069    伤官     kurang selaras    
+  6    辛酉     57-66        2070-2079    食神     kurang selaras    
+  7    壬戌     67-76        2080-2089    正财     selaras           
+  8    癸亥     77-86        2090-2099    偏财     kurang selaras    
+  9    甲子     87-96        2100-2109    正官     kurang selaras    
+  10   乙丑     97-106       2110-2119    七杀     selaras           
+  --------------------------------------------------------------------
+
+  Penjelasan setiap fase (bahasa sehari-hari):
+
+  ● 丙辰 (Api 火 + Tanah 土) — usia 7-16 (2020-2029)
+      FASE EMAS — masa belajar, perlindungan, dan pembangunan fondasi. Energi tahun-tahun ini menopang Anda.
+      十神 batang: 正印 — suka belajar, bijaksana, sering dilindungi nasib baik lewat pendidikan, dokumen, dan figur senior.
+      Saran: manfaatkan fase ini untuk pendidikan, sertifikasi, dan membangun fondasi.
+
+  ● 丁巳 (Api 火 + Api 火) — usia 17-26 (2030-2039)
+      FASE BAIK — keahlian spesialis & riset berkembang; jalan unik Anda terbuka.
+      十神 batang: 偏印 — intuitif, unik, suka riset dan hal-hal non-mainstream; kadang suka menyendiri.
+      Saran: manfaatkan fase ini untuk pendidikan, sertifikasi, dan membangun fondasi.
+
+  ● 戊午 (Tanah 土 + Api 火) — usia 27-36 (2040-2049)
+      FASE MENCAMPUR — semangat tinggi, tetapi uang cepat keluar; disiplin anggaran wajib.
+      十神 batang: 劫财 — energik, berani, suka menolong, tetapi boros. Waspadai pinjam-meminjam uang dan pengeluaran impulsif.
+      Saran: manfaatkan fase ini untuk memperkuat jejaring dan kemandirian.
+
+  ● 己未 (Tanah 土 + Tanah 土) — usia 37-46 (2050-2059)
+      FASE BAIK — kemandirian menguat; cocok membangun usaha sendiri meski persaingan ada.
+      十神 batang: 比肩 — mandiri, pekerja keras, setia kawan; suka bersaing sehat. Hati-hati: keras kepala dan sulit meminta bantuan.
+      Saran: manfaatkan fase ini untuk memperkuat jejaring dan kemandirian.
+
+  ● 庚申 (Logam 金 + Logam 金) — usia 47-56 (2060-2069)
+      FASE SULIT — konflik dengan aturan/atasan berisiko; kendalikan emosi dan ucapan.
+      十神 batang: 伤官 — cerdas, inovatif, ekspresif; berbakat seni/teknologi. Kurang sabar dengan aturan dan atasan.
+      Saran: fokus bertahan & konsolidasi; hindari ekspansi besar; karya, kreativitas, dan meluncurkan produk.
+
+  ● 辛酉 (Logam 金 + Logam 金) — usia 57-66 (2070-2079)
+      FASE NETRAL — kreativitas ada tetapi hasil belum maksimal; terus berproses.
+      十神 batang: 食神 — kreatif, tenang, menikmati hidup; berbakat seni & kuliner. Rezeki mengalir dari karya dan keahlian.
+      Saran: fokus bertahan & konsolidasi; hindari ekspansi besar; karya, kreativitas, dan meluncurkan produk.
+
+  ● 壬戌 (Air 水 + Tanah 土) — usia 67-76 (2080-2089)
+      FASE EMAS — masa panen finansial. Kerja keras dibayar lunas; cocok menabung, investasi, dan menikah.
+      十神 batang: 正财 — teliti, hemat, dapat diandalkan; rezeki dari pekerjaan tetap dan usaha yang tekun. Setia dalam hubungan.
+      Saran: manfaatkan fase ini untuk menabung, investasi, dan mengelola arus kas.
+
+  ● 癸亥 (Air 水 + Air 水) — usia 77-86 (2090-2099)
+      FASE BERISIKO — godaan untung cepat besar; waspadai penipuan dan spekulasi.
+      十神 batang: 偏财 — berbakat bisnis, dermawan, kharismatik; rezeki besar kadang datang tak terduga. Gemar gaya hidup nyaman.
+      Saran: fokus bertahan & konsolidasi; hindari ekspansi besar; menabung, investasi, dan mengelola arus kas.
+
+  ● 甲子 (Kayu 木 + Air 水) — usia 87-96 (2100-2109)
+      FASE MENJAGA — beban tanggung jawab bertambah; jalani dengan disiplin, jangan memaksakan diri.
+      十神 batang: 正官 — disiplin, bertanggung jawab, menjunjung aturan; cocok untuk karier formal dan jabatan.
+      Saran: fokus bertahan & konsolidasi; hindari ekspansi besar; meniti karier, kepemimpinan, dan reputasi.
+
+  ● 乙丑 (Kayu 木 + Tanah 土) — usia 97-106 (2110-2119)
+      FASE BAIK-MENANTANG — ambisi besar bisa menang besar, tetapi tekanannya nyata.
+      十神 batang: 七杀 — ambisius, berani, tahan tekanan; unggul di medan sulit. Butuh saluran sehat untuk stres (olahraga/hobi).
+      Saran: manfaatkan fase ini untuk meniti karier, kepemimpinan, dan reputasi.
+
+================ 8. PERUNTUNGAN TAHUNAN (流年) 2026-2046 =================
+  Rentang: 2026-2046 (usia 13–33 tahun). Skor 0-100; semakin tinggi semakin baik.
+
+  --------------------------------------------------------------------
+  2026 — 丙午 (Api 火, shio Kuda) — usia 13 th — SKOR 78/100 — BAIK
+  Tema besar : tahun belajar, perlindungan, dan dokumen. Banyak hal 'dibereskan' lewat jalur resmi.
+  Karier     : Karier mulus; atasan/senior membuka jalan. Cocok mengambil sertifikasi, pendidikan lanjut, atau pengurusan administrasi penting.
+  Keuangan   : Keuangan stabil; ada rezeki dari sumber tak terduga (hibah, warisan, tunjangan). Hindari pinjam-meminjam besar.
+  Asmara     : Hubungan harmonis dan saling mendukung; cocok untuk memperkuat komitmen.
+  Kesehatan  : Kesehatan terjaga; perhatikan pola makan dan istirahat.
+  Studi      : Sangat baik untuk belajar, ujian, dan mengejar gelar.
+  Saran      : Perbanyak belajar dan minta bimbingan orang berpengalaman.
+  Kabar baik : 桃花 aktif — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  ★ Momentum tahun ini positif — manfaatkan untuk langkah besar.
+
+  --------------------------------------------------------------------
+  2027 — 丁未 (Api 火, shio Kambing) — usia 14 th — SKOR 73/100 — BAIK
+  Tema besar : tahun riset, intuisi, dan hal-hal unik. Energi pendukung datang dari bidang non-mainstream.
+  Karier     : Karier menuntut pemikiran di luar kotak; cocok untuk riset, analisis, teknologi, atau profesi spesialis.
+  Keuangan   : Keuangan pas-pasan menantang; hindari investasi yang belum dipahami benar.
+  Asmara     : Cenderung menyendiri; komunikasikan perasaan agar tidak salah paham.
+  Kesehatan  : Perhatikan kesehatan mental; jangan memendam masalah sendirian.
+  Studi      : Bagus untuk riset mendalam; hindari belajar yang terlalu melompat-lompat.
+  Saran      : Percaya intuisi, tapi tetap cek fakta sebelum bertindak.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  ★ Momentum tahun ini positif — manfaatkan untuk langkah besar.
+
+  --------------------------------------------------------------------
+  2028 — 戊申 (Tanah 土, shio Monyet) — usia 15 th — SKOR 51/100 — NETRAL
+  Tema besar : tahun pengeluaran tak terduga dan relasi yang menguras. Berhati-hatilah dengan 'teman'.
+  Karier     : Rezeki ada tetapi cepat keluar; waspadai mitra yang bermasalah dan janji palsu.
+  Keuangan   : Rentan bocor: pinjaman, ditipu, atau pengeluaran impulsif. Catat setiap rupiah.
+  Asmara     : Ada pihak ketiga/gangguan; perkuat komunikasi dengan pasangan.
+  Kesehatan  : Jaga kesehatan pencernaan dan hindari minuman keras.
+  Studi      : Jangan mudah terganggu ajakan teman; fokus pada target.
+  Saran      : Disiplin anggaran; jangan meminjamkan uang yang Anda butuhkan.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : kena 空亡 — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2029 — 己酉 (Tanah 土, shio Ayam) — usia 16 th — SKOR 49/100 — NETRAL
+  Tema besar : tahun kemandirian, persaingan, dan teman. Energi 'sesama' sedang kuat.
+  Karier     : Persaingan ketat; andalkan kekuatan sendiri, tetapi jangan menolak kerja sama.
+  Keuangan   : Pengeluaran untuk relasi meningkat; hindari jadi penjamin utang teman.
+  Asmara     : Ego bisa memicu pertengkaran; belajar mengalah.
+  Kesehatan  : Cukup baik; waspadai kelelahan karena terlalu banyak aktivitas.
+  Studi      : Belajar mandiri efektif; bergabung kelompok belajar untuk saling menguatkan.
+  Saran      : Berdiri di atas kaki sendiri, tapi tetap jaga relasi.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 冲 pilar hari (酉 vs 卯); kena 空亡 — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2030 — 庚戌 (Logam 金, shio Anjing) — usia 17 th — SKOR 55/100 — NETRAL
+  Tema besar : tahun bakat, inovasi, dan keinginan bebas. Energi 'membongkar' sedang aktif.
+  Karier     : Ide cemerlang tetapi rawan konflik dengan atasan/aturan; sampaikan pendapat dengan sopan.
+  Keuangan   : Pendapatan dari bakat bisa bagus, tetapi gaya hidup boros menggerus; buat anggaran.
+  Asmara     : Emosi naik-turun; hindari berkata-kata tajam yang melukai pasangan.
+  Kesehatan  : Perhatikan tenggorokan, kulit, dan kecenderungan begadang.
+  Studi      : Kreativitas tinggi; cocok lomba, karya ilmiah, dan proyek inovatif.
+  Saran      : Salurkan energi lewat karya; kendalikan lidah di tempat kerja.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+
+  --------------------------------------------------------------------
+  2031 — 辛亥 (Logam 金, shio Babi) — usia 18 th — SKOR 47/100 — NETRAL
+  Tema besar : tahun kreativitas, karya, dan kenikmatan hidup. Rezeki datang dari bakat.
+  Karier     : Cocok meluncurkan produk, karya seni, atau inovasi; hasil kerja Anda diapresiasi publik.
+  Keuangan   : Rezeki mengalir dari karya dan keahlian; peluang mengembangkan usaha kuliner/kreatif.
+  Asmara     : Suasana hangat dan romantis; waktu yang baik untuk quality time.
+  Kesehatan  : Bagus — energi positif; jaga berat badan karena nafsu makan meningkat.
+  Studi      : Belajar terasa ringan; hasilkan karya tulis/proyek yang dipamerkan.
+  Saran      : Salurkan kreativitas; jangan menunda ide yang sudah matang.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 冲 pilar tahun (亥 vs 巳); 冲 大运 (亥 vs 巳) — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2032 — 壬子 (Air 水, shio Tikus) — usia 19 th — SKOR 46/100 — NETRAL
+  Tema besar : tahun rezeki utama: gaji, usaha, dan hasil kerja keras. Energi uang sedang mengalir.
+  Karier     : Kinerja dihargai; cocok mengejar target, kenaikan gaji, atau ekspansi usaha.
+  Keuangan   : Keuangan membaik; waktu yang tepat menabung, investasi aman, dan melunasi utang.
+  Asmara     : Hubungan stabil; bagi pria, energi 'istri' positif — cocok menikah atau memperkuat rumah tangga.
+  Kesehatan  : Baik; jaga pola makan agar tidak kekenyangan saat perayaan.
+  Studi      : Disiplin belajar membuahkan nilai bagus.
+  Saran      : Kerja keras Anda akan dibayar; kelola pemasukan dengan bijak.
+  Kabar baik : 桃花 aktif — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 刑 pilar hari — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2033 — 癸丑 (Air 水, shio Kerbau) — usia 20 th — SKOR 69/100 — CUKUP
+  Tema besar : tahun rezeki sampingan: bisnis, peluang besar, dan kejutan finansial.
+  Karier     : Peluang usaha sampingan, proyek besar, atau tawaran menggiurkan bermunculan. Jeli menangkapnya.
+  Keuangan   : Ada potensi untung besar, tetapi juga risiko besar; kelola dengan hati-hati, jangan serakah.
+  Asmara     : Karisma naik, banyak perhatian; bagi yang berpasangan, jaga diri dari godaan.
+  Kesehatan  : Perhatikan pola hidup karena kecenderungan hura-hura; batasi alkohol dan lemak.
+  Studi      : Bagus untuk beasiswa dan kompetisi; jangan mudah teralihkan.
+  Saran      : Tangkap peluang besar, tapi pasang batas kerugian sebelum memulai.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+
+  --------------------------------------------------------------------
+  2034 — 甲寅 (Kayu 木, shio Harimau) — usia 21 th — SKOR 42/100 — KURANG
+  Tema besar : tahun jabatan, reputasi, dan aturan. Dunia 'formal' sedang memperhatikan Anda.
+  Karier     : Peluang naik jabatan, penugasan resmi, dan pengakuan profesional terbuka lebar.
+  Keuangan   : Keuangan meningkat seiring karier; tetap disiplin menabung.
+  Asmara     : Hubungan serius; bagi yang lajang, ada peluang bertemu pasangan lewat lingkungan kerja/formal.
+  Kesehatan  : Jaga tekanan darah dan manajemen stres karena beban tanggung jawab bertambah.
+  Studi      : Cocok untuk ujian kedinasan, sertifikasi profesi, dan jenjang akademik.
+  Saran      : Jaga nama baik dan patuhi aturan; disiplin adalah kunci tahun ini.
+  Waspada    : 害 pilar tahun — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+  ⚠ Tahun ini menuntut kehati-hatian ekstra — jaga kesehatan, arus kas, dan jangan memaksakan keputusan besar.
+
+  --------------------------------------------------------------------
+  2035 — 乙卯 (Kayu 木, shio Kelinci) — usia 22 th — SKOR 26/100 — HATI-HATI
+  Tema besar : tahun tantangan, tekanan, dan persaingan. Medan pertempuran sedang terbuka.
+  Karier     : Tekanan kerja meningkat; ini ujian ketangguhan. Berani mengambil tanggung jawab besar, tetapi jangan memaksakan diri.
+  Keuangan   : Keuangan berisiko; hindari utang dan spekulasi besar.
+  Asmara     : Potensi konflik dengan pasangan; kendalikan emosi dan ego.
+  Kesehatan  : Rawan kecelakaan kecil dan penyakit mendadak; istirahat cukup, jaga diri ekstra.
+  Studi      : Belajar penuh tekanan; target ambisius bisa tercapai jika terorganisir.
+  Saran      : Hadapi tantangan dengan kepala dingin; olahraga untuk melepas stres.
+  ⚠ Tahun ini menuntut kehati-hatian ekstra — jaga kesehatan, arus kas, dan jangan memaksakan keputusan besar.
+
+  --------------------------------------------------------------------
+  2036 — 丙辰 (Api 火, shio Naga) — usia 23 th — SKOR 64/100 — CUKUP
+  Tema besar : tahun belajar, perlindungan, dan dokumen. Banyak hal 'dibereskan' lewat jalur resmi.
+  Karier     : Karier mulus; atasan/senior membuka jalan. Cocok mengambil sertifikasi, pendidikan lanjut, atau pengurusan administrasi penting.
+  Keuangan   : Keuangan stabil; ada rezeki dari sumber tak terduga (hibah, warisan, tunjangan). Hindari pinjam-meminjam besar.
+  Asmara     : Hubungan harmonis dan saling mendukung; cocok untuk memperkuat komitmen.
+  Kesehatan  : Kesehatan terjaga; perhatikan pola makan dan istirahat.
+  Studi      : Sangat baik untuk belajar, ujian, dan mengejar gelar.
+  Saran      : Perbanyak belajar dan minta bimbingan orang berpengalaman.
+  Waspada    : 害 pilar hari — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2037 — 丁巳 (Api 火, shio Ular) — usia 24 th — SKOR 69/100 — CUKUP
+  Tema besar : tahun riset, intuisi, dan hal-hal unik. Energi pendukung datang dari bidang non-mainstream.
+  Karier     : Karier menuntut pemikiran di luar kotak; cocok untuk riset, analisis, teknologi, atau profesi spesialis.
+  Keuangan   : Keuangan pas-pasan menantang; hindari investasi yang belum dipahami benar.
+  Asmara     : Cenderung menyendiri; komunikasikan perasaan agar tidak salah paham.
+  Kesehatan  : Perhatikan kesehatan mental; jangan memendam masalah sendirian.
+  Studi      : Bagus untuk riset mendalam; hindari belajar yang terlalu melompat-lompat.
+  Saran      : Percaya intuisi, tapi tetap cek fakta sebelum bertindak.
+
+  --------------------------------------------------------------------
+  2038 — 戊午 (Tanah 土, shio Kuda) — usia 25 th — SKOR 62/100 — CUKUP
+  Tema besar : tahun pengeluaran tak terduga dan relasi yang menguras. Berhati-hatilah dengan 'teman'.
+  Karier     : Rezeki ada tetapi cepat keluar; waspadai mitra yang bermasalah dan janji palsu.
+  Keuangan   : Rentan bocor: pinjaman, ditipu, atau pengeluaran impulsif. Catat setiap rupiah.
+  Asmara     : Ada pihak ketiga/gangguan; perkuat komunikasi dengan pasangan.
+  Kesehatan  : Jaga kesehatan pencernaan dan hindari minuman keras.
+  Studi      : Jangan mudah terganggu ajakan teman; fokus pada target.
+  Saran      : Disiplin anggaran; jangan meminjamkan uang yang Anda butuhkan.
+  Kabar baik : 桃花 aktif — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+
+  --------------------------------------------------------------------
+  2039 — 己未 (Tanah 土, shio Kambing) — usia 26 th — SKOR 73/100 — BAIK
+  Tema besar : tahun kemandirian, persaingan, dan teman. Energi 'sesama' sedang kuat.
+  Karier     : Persaingan ketat; andalkan kekuatan sendiri, tetapi jangan menolak kerja sama.
+  Keuangan   : Pengeluaran untuk relasi meningkat; hindari jadi penjamin utang teman.
+  Asmara     : Ego bisa memicu pertengkaran; belajar mengalah.
+  Kesehatan  : Cukup baik; waspadai kelelahan karena terlalu banyak aktivitas.
+  Studi      : Belajar mandiri efektif; bergabung kelompok belajar untuk saling menguatkan.
+  Saran      : Berdiri di atas kaki sendiri, tapi tetap jaga relasi.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  ★ Momentum tahun ini positif — manfaatkan untuk langkah besar.
+
+  --------------------------------------------------------------------
+  2040 — 庚申 (Logam 金, shio Monyet) — usia 27 th — SKOR 41/100 — KURANG
+  Tema besar : tahun bakat, inovasi, dan keinginan bebas. Energi 'membongkar' sedang aktif.
+  Karier     : Ide cemerlang tetapi rawan konflik dengan atasan/aturan; sampaikan pendapat dengan sopan.
+  Keuangan   : Pendapatan dari bakat bisa bagus, tetapi gaya hidup boros menggerus; buat anggaran.
+  Asmara     : Emosi naik-turun; hindari berkata-kata tajam yang melukai pasangan.
+  Kesehatan  : Perhatikan tenggorokan, kulit, dan kecenderungan begadang.
+  Studi      : Kreativitas tinggi; cocok lomba, karya ilmiah, dan proyek inovatif.
+  Saran      : Salurkan energi lewat karya; kendalikan lidah di tempat kerja.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : kena 空亡 — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+  ⚠ Tahun ini menuntut kehati-hatian ekstra — jaga kesehatan, arus kas, dan jangan memaksakan keputusan besar.
+
+  --------------------------------------------------------------------
+  2041 — 辛酉 (Logam 金, shio Ayam) — usia 28 th — SKOR 41/100 — KURANG
+  Tema besar : tahun kreativitas, karya, dan kenikmatan hidup. Rezeki datang dari bakat.
+  Karier     : Cocok meluncurkan produk, karya seni, atau inovasi; hasil kerja Anda diapresiasi publik.
+  Keuangan   : Rezeki mengalir dari karya dan keahlian; peluang mengembangkan usaha kuliner/kreatif.
+  Asmara     : Suasana hangat dan romantis; waktu yang baik untuk quality time.
+  Kesehatan  : Bagus — energi positif; jaga berat badan karena nafsu makan meningkat.
+  Studi      : Belajar terasa ringan; hasilkan karya tulis/proyek yang dipamerkan.
+  Saran      : Salurkan kreativitas; jangan menunda ide yang sudah matang.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 冲 pilar hari (酉 vs 卯); kena 空亡 — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+  ⚠ Tahun ini menuntut kehati-hatian ekstra — jaga kesehatan, arus kas, dan jangan memaksakan keputusan besar.
+
+  --------------------------------------------------------------------
+  2042 — 壬戌 (Air 水, shio Anjing) — usia 29 th — SKOR 67/100 — CUKUP
+  Tema besar : tahun rezeki utama: gaji, usaha, dan hasil kerja keras. Energi uang sedang mengalir.
+  Karier     : Kinerja dihargai; cocok mengejar target, kenaikan gaji, atau ekspansi usaha.
+  Keuangan   : Keuangan membaik; waktu yang tepat menabung, investasi aman, dan melunasi utang.
+  Asmara     : Hubungan stabil; bagi pria, energi 'istri' positif — cocok menikah atau memperkuat rumah tangga.
+  Kesehatan  : Baik; jaga pola makan agar tidak kekenyangan saat perayaan.
+  Studi      : Disiplin belajar membuahkan nilai bagus.
+  Saran      : Kerja keras Anda akan dibayar; kelola pemasukan dengan bijak.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+
+  --------------------------------------------------------------------
+  2043 — 癸亥 (Air 水, shio Babi) — usia 30 th — SKOR 48/100 — NETRAL
+  Tema besar : tahun rezeki sampingan: bisnis, peluang besar, dan kejutan finansial.
+  Karier     : Peluang usaha sampingan, proyek besar, atau tawaran menggiurkan bermunculan. Jeli menangkapnya.
+  Keuangan   : Ada potensi untung besar, tetapi juga risiko besar; kelola dengan hati-hati, jangan serakah.
+  Asmara     : Karisma naik, banyak perhatian; bagi yang berpasangan, jaga diri dari godaan.
+  Kesehatan  : Perhatikan pola hidup karena kecenderungan hura-hura; batasi alkohol dan lemak.
+  Studi      : Bagus untuk beasiswa dan kompetisi; jangan mudah teralihkan.
+  Saran      : Tangkap peluang besar, tapi pasang batas kerugian sebelum memulai.
+  Kabar baik : 合 pilar hari — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 冲 pilar tahun (亥 vs 巳) — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+  --------------------------------------------------------------------
+  2044 — 甲子 (Kayu 木, shio Tikus) — usia 31 th — SKOR 39/100 — KURANG
+  Tema besar : tahun jabatan, reputasi, dan aturan. Dunia 'formal' sedang memperhatikan Anda.
+  Karier     : Peluang naik jabatan, penugasan resmi, dan pengakuan profesional terbuka lebar.
+  Keuangan   : Keuangan meningkat seiring karier; tetap disiplin menabung.
+  Asmara     : Hubungan serius; bagi yang lajang, ada peluang bertemu pasangan lewat lingkungan kerja/formal.
+  Kesehatan  : Jaga tekanan darah dan manajemen stres karena beban tanggung jawab bertambah.
+  Studi      : Cocok untuk ujian kedinasan, sertifikasi profesi, dan jenjang akademik.
+  Saran      : Jaga nama baik dan patuhi aturan; disiplin adalah kunci tahun ini.
+  Kabar baik : 桃花 aktif — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+  Waspada    : 刑 pilar hari; 冲 大运 (子 vs 午) — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+  ⚠ Tahun ini menuntut kehati-hatian ekstra — jaga kesehatan, arus kas, dan jangan memaksakan keputusan besar.
+
+  --------------------------------------------------------------------
+  2045 — 乙丑 (Kayu 木, shio Kerbau) — usia 32 th — SKOR 51/100 — NETRAL
+  Tema besar : tahun tantangan, tekanan, dan persaingan. Medan pertempuran sedang terbuka.
+  Karier     : Tekanan kerja meningkat; ini ujian ketangguhan. Berani mengambil tanggung jawab besar, tetapi jangan memaksakan diri.
+  Keuangan   : Keuangan berisiko; hindari utang dan spekulasi besar.
+  Asmara     : Potensi konflik dengan pasangan; kendalikan emosi dan ego.
+  Kesehatan  : Rawan kecelakaan kecil dan penyakit mendadak; istirahat cukup, jaga diri ekstra.
+  Studi      : Belajar penuh tekanan; target ambisius bisa tercapai jika terorganisir.
+  Saran      : Hadapi tantangan dengan kepala dingin; olahraga untuk melepas stres.
+  Kabar baik : 合 pilar tahun — energi menyatu: kerja sama, relasi, dan bantuan mengalir lebih lancar. Manfaatkan momen ini.
+
+  --------------------------------------------------------------------
+  2046 — 丙寅 (Api 火, shio Harimau) — usia 33 th — SKOR 62/100 — CUKUP
+  Tema besar : tahun belajar, perlindungan, dan dokumen. Banyak hal 'dibereskan' lewat jalur resmi.
+  Karier     : Karier mulus; atasan/senior membuka jalan. Cocok mengambil sertifikasi, pendidikan lanjut, atau pengurusan administrasi penting.
+  Keuangan   : Keuangan stabil; ada rezeki dari sumber tak terduga (hibah, warisan, tunjangan). Hindari pinjam-meminjam besar.
+  Asmara     : Hubungan harmonis dan saling mendukung; cocok untuk memperkuat komitmen.
+  Kesehatan  : Kesehatan terjaga; perhatikan pola makan dan istirahat.
+  Studi      : Sangat baik untuk belajar, ujian, dan mengejar gelar.
+  Saran      : Perbanyak belajar dan minta bimbingan orang berpengalaman.
+  Waspada    : 害 pilar tahun — hindari keputusan besar saat energi bentrok; jaga kesehatan dan arus kas.
+
+
+=================== 9. PERUNTUNGAN BULANAN (流月) 2026 ===================
+  Feb 2026     庚寅 (mulai 立春) — skor 42/100 [KURANG      ] — 伤官: bulan inovasi & gejolak — ide bagus, tetapi jaga ucapan; hindari konflik dengan atasan.
+  Mar 2026     辛卯 (mulai 惊蛰) — skor 47/100 [NETRAL      ] — 食神: bulan kreativitas — rezeki dari karya; baik meluncurkan ide dan menikmati hidup.
+  Apr 2026     壬辰 (mulai 清明) — skor 54/100 [NETRAL      ] — 正财: bulan rezeki utama — kerja keras dihargai; baik menabung dan melunasi utang.
+  Mei 2026     癸巳 (mulai 立夏) — skor 53/100 [NETRAL      ] — 偏财: bulan peluang sampingan — tawaran bisnis bermunculan; kelola risiko dengan cermat.
+  Jun 2026     甲午 (mulai 芒种) — skor 53/100 [NETRAL      ] — 正官: bulan tanggung jawab — peluang pengakuan/jabatan; jaga sikap dan nama baik.
+  Jul 2026     乙未 (mulai 小暑) — skor 52/100 [NETRAL      ] — 七杀: bulan tekanan — waspadai konflik & kecelakaan kecil; kerjakan hal penting lebih awal.
+  Agu 2026     丙申 (mulai 立秋) — skor 55/100 [NETRAL      ] — 正印: bulan belajar & berkah dokumen — baik mengurus administrasi, menuntut ilmu, dan minta bimbingan.
+  Sep 2026     丁酉 (mulai 白露) — skor 41/100 [KURANG      ] — 偏印: bulan riset & intuisi — cocok analisis mendalam; jangan ambil keputusan besar sendirian.
+  Okt 2026     戊戌 (mulai 寒露) — skor 61/100 [CUKUP       ] — 劫财: bulan boros — waspadai pengeluaran dan pinjaman; pegang erat anggaran.
+  Nov 2026     己亥 (mulai 立冬) — skor 57/100 [NETRAL      ] — 比肩: bulan persaingan — andalkan diri sendiri; cocok kerja tim bila egonya dikelola.
+  Des 2026     庚子 (mulai 大雪) — skor 42/100 [KURANG      ] — 伤官: bulan inovasi & gejolak — ide bagus, tetapi jaga ucapan; hindari konflik dengan atasan.
+  Jan 2027     辛丑 (mulai 小寒) — skor 55/100 [NETRAL      ] — 食神: bulan kreativitas — rezeki dari karya; baik meluncurkan ide dan menikmati hidup.
+
+========================================================================
+  CATATAN PENTING
+  • Bazi adalah tradisi metafisika Tionghoa (Ziwshu) berusia ribuan tahun. Hasil ini
+    adalah interpretasi simbolik untuk refleksi & hiburan, BUKAN kepastian ilmiah.
+  • Keputusan penting (keuangan, kesehatan, karier, pernikahan) tetap berdasarkan
+    pertimbangan rasional dan nasihat profesional.
+  • Perhitungan 节气 memakai algoritma astronomi (akurasi ±15 menit); kelahiran
+    tepat di perbatasan jam 23:00 / 节气 dapat mengubah pilar.
+  • Metode kekuatan Hari Utama & skor tahunan adalah penyederhanaan pedagogis
+    (扶抑法) — peramal profesional dapat memberi analisis yang lebih mendalam.
+========================================================================
