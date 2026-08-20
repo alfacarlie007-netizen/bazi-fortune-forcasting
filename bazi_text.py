@@ -151,7 +151,7 @@ TEN_GOD_YEAR = {
             "studi": "Cocok untuk ujian kedinasan, sertifikasi profesi, dan jenjang akademik yang terstruktur.",
         },
         "risiko": {
-            "karier": "Beban tanggung jawab bertambah berat: target tinggi, jam kerja panjang, dan politik kantor. Waspadai fitnah jabatan dan 'teman' yang menjatuhkan di belakang; kesalahan kecil bisa dibesar-besarkan.",
+            "karier": "Beban tanggung jawab bertambah berat: target tinggi, jam kerja panjang, dan politik kantor. Waspadai fitnah jabatan dan 'teman' yang menjatuhkan di belakang; kesalahan kecil bisa dibesar-besarkan hingga berujung sanksi, demosi, atau PHK.",
             "keuangan": "Pengeluaran mengikuti gengsi jabatan (mobil, jamuan, gaya hidup) bisa menggerus tabungan. Waspadai gratifikasi yang berbau pelanggaran.",
             "asmara": "Jadwal padat membuat rumah tangga diabaikan; pasangan bisa merasa ditinggalkan. Hubungan dengan bawahan/rekan lawan jenis perlu batas tegas.",
             "kesehatan": "Stres, tekanan darah tinggi, asam lambung, dan sakit kepala tegang — penyakit 'orang sibuk' yang sering diabaikan sampai parah.",
@@ -205,7 +205,7 @@ TEN_GOD_YEAR = {
         },
         "risiko": {
             "karier": "Kesuksesan membuat Anda dianggap 'sumber uang' oleh rekan: sering dimintai bantuan, dititipi tanggung jawab orang lain, sampai dibebani kerja ekstra tanpa imbalan.",
-            "keuangan": "Pengeluaran gaya hidup ikut naik bersama penghasilan (makan di luar, gadget, gengsi). Utang konsumtif dan cicilan bisa menggerus; jangan pinjamkan uang dalam jumlah besar.",
+            "keuangan": "Pengeluaran gaya hidup ikut naik bersama penghasilan (makan di luar, gadget, gengsi). Utang konsumtif dan cicilan bisa menggerus sampai terlilit; jangan pinjamkan uang dalam jumlah besar — risikonya tak kembali dan merusak hubungan.",
             "asmara": "Pasangan bisa merasa nilai Anda diukur dari uang; komunikasi yang dangkal memicu jarak emosional.",
             "kesehatan": "Pola makan saat perayaan — kolesterol, asam urat, dan obesitas mengintai di akhir tahun.",
             "studi": "Terlalu sibuk mencari penghasilan membuat waktu belajar terabaikan.",
@@ -257,7 +257,7 @@ TEN_GOD_YEAR = {
             "studi": "Belajar mandiri sangat efektif; kelompok belajar yang sehat saling menguatkan.",
         },
         "risiko": {
-            "karier": "Persaingan tidak sehat: rekan berebut posisi, proyek disabotase halus, dan klaim hasil kerja oleh orang lain. Ego membuat Anda sulit bekerja sama.",
+            "karier": "Persaingan tidak sehat: rekan berebut posisi, proyek disabotase halus, dan hasil kerja diklaim orang lain — kerugian nyata bagi karier Anda. Ego membuat Anda sulit bekerja sama dan berisiko ditinggalkan tim.",
             "keuangan": "Pengeluaran untuk relasi membengkak (traktiran, sumbangan, pinjaman teman yang tak kembali). Menjadi penjamin utang orang lain adalah jebakan terbesar.",
             "asmara": "Ego dan gengsi memicu pertengkaran; sulit mengalah membuat masalah kecil membesar. Waspadai persaingan dengan pasangan.",
             "kesehatan": "Kelelahan karena terlalu banyak aktivitas sosial; tubuh dipaksa terus 'on'.",
