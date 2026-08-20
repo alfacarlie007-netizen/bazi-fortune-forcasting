@@ -4,8 +4,14 @@ bazi_text.py — Lapisan interpretasi & laporan Bahasa Indonesia.
 
 Mengubah hasil hitungan bazi_core.py menjadi laporan yang mudah dipahami:
 kepribadian, analisis unsur, kekuatan Hari Utama, unsur keberuntungan,
-fase 大运, peruntungan tahunan (流年), dan peruntungan bulanan (流月) —
-semua dalam bahasa sehari-hari.
+fase 大运, peruntungan tahunan (流年), dan peruntungan bulanan (流月) — semua
+dalam bahasa sehari-hari yang LUGAS.
+
+Setiap ramalan tahunan (流年) kini disajikan LENGKAP:
+  • Peluang  — sisi baik tahun ini (karier, keuangan, asmara, kesehatan, studi)
+  • Risiko   — tanda bahaya & ancaman yang disebutkan DETAIL tanpa ditutup-tutupi
+  • Penangkal — nasihat/penawar praktis agar bahaya batal terjadi
+  • Saran    — ringkasan sikap terbaik
 """
 
 from __future__ import annotations
@@ -25,7 +31,6 @@ SHIO = ["Tikus", "Kerbau", "Harimau", "Kelinci", "Naga", "Ular",
 
 ELEMENT_NAME = {"木": "Kayu", "火": "Api", "土": "Tanah", "金": "Logam", "水": "Air"}
 
-# --- Kepribadian berdasarkan unsur Hari Utama (日主) ---
 ELEMENT_PERSONALITY = {
     "木": ("Pribadi yang terus bertumbuh — idealis, berprinsip, suka membangun, "
           "berorganisasi, dan mengembangkan orang lain. Kelemahan: keras kepala, "
@@ -44,7 +49,6 @@ ELEMENT_PERSONALITY = {
           "dan kadang plin-plan."),
 }
 
-# --- Makna 十神 dalam bahasa sehari-hari ---
 TEN_GOD_DESC = {
     "比肩": ("Saudara Sejati", "mandiri, pekerja keras, setia kawan; suka bersaing sehat. "
             "Hati-hati: keras kepala dan sulit meminta bantuan."),
@@ -68,7 +72,6 @@ TEN_GOD_DESC = {
             "nasib baik lewat pendidikan, dokumen, dan figur senior."),
 }
 
-# --- Deskripsi 神煞 ---
 SHEN_SHA_DESC = {
     "天乙贵人": "penolong agung — sering selamat dari kesulitan dan dibantu orang berpengaruh",
     "文昌贵人": "bintang pelajar — cerdas, sukses di akademik, suka menulis",
@@ -80,97 +83,275 @@ SHEN_SHA_DESC = {
     "羊刃": "mata pedang — pemberani tetapi mudah konflik; jaga diri dari luka/operasi",
 }
 
-# --- Tema & ramalan tahunan (流年) per 十神 ---
+# ---------------------------------------------------------------------------
+# RAMALAN TAHUNAN (流年) per 十神 — versi LENGKAP & LUGAS
+# tiap entri: tema, peluang{5}, risiko{5} (detail & blak-blakan), risiko_utama,
+# penangkal[...], saran.
+# ---------------------------------------------------------------------------
 TEN_GOD_YEAR = {
     "正印": {
         "tema": "tahun belajar, perlindungan, dan dokumen. Banyak hal 'dibereskan' lewat jalur resmi.",
-        "karir": "Karier mulus; atasan/senior membuka jalan. Cocok mengambil sertifikasi, pendidikan lanjut, atau pengurusan administrasi penting.",
-        "keuangan": "Keuangan stabil; ada rezeki dari sumber tak terduga (hibah, warisan, tunjangan). Hindari pinjam-meminjam besar.",
-        "asmara": "Hubungan harmonis dan saling mendukung; cocok untuk memperkuat komitmen.",
-        "kesehatan": "Kesehatan terjaga; perhatikan pola makan dan istirahat.",
-        "studi": "Sangat baik untuk belajar, ujian, dan mengejar gelar.",
-        "saran": "Perbanyak belajar dan minta bimbingan orang berpengalaman.",
+        "peluang": {
+            "karier": "Karier mulus; atasan atau figur senior membuka jalan. Peluang sertifikasi, pendidikan lanjut, dan pengurusan administrasi penting sangat baik.",
+            "keuangan": "Keuangan stabil dengan kemungkinan rezeki tak terduga (hibah, warisan, tunjangan). Cocok menabung dan membereskan utang lama.",
+            "asmara": "Hubungan harmonis dan saling mendukung — waktu yang baik memperkuat komitmen atau membangun rumah tangga yang tenang.",
+            "kesehatan": "Kesehatan cenderung terjaga; energi pemulihan baik setelah masa sulit.",
+            "studi": "Sangat baik — ujian, beasiswa, dan mengejar gelar sangat diuntungkan.",
+        },
+        "risiko": {
+            "karier": "Rasa puas diri dan 'terlalu nyaman' bisa membuat Anda lengah: promosi direbut orang lain, proyek diremehkan, atau dianggap pasif oleh atasan. Hati-hati juga terhadap dokumen yang ditunda — bisa berujung masalah administrasi, pencairan dana tertahan, atau sanksi kecil di tempat kerja.",
+            "keuangan": "Aliran uang yang 'aman' membuat pengeluaran diam-diam membengkak. Waspadai utang yang ditagih mendadak, orang yang meminjam atas nama kasihan, dan dokumen keuangan yang ditandatangani tanpa dibaca.",
+            "asmara": "Rutinitas bisa membuat pasangan merasa diabaikan. Ada risiko orang ketiga memanfaatkan 'kebaikan' Anda; jangan sampai kebaikan disalahartikan sebagai kedekatan berlebih.",
+            "kesehatan": "Kurang gerak karena terlalu nyaman — risiko gula darah, kolesterol, dan berat badan naik. Penyakit 'diam-diam' bisa muncul tanpa gejala awal.",
+            "studi": "Jangan mengandalkan 'keberuntungan' saja; soal ujian tahun ini bisa berubah bentuk. Plagiarisme atau kerja kelompok yang tidak transparan berisiko dilaporkan.",
+        },
+        "risiko_utama": "Kemalasan & kenyamanan semu — jangan lengah di tengah jalan, dan waspadai dokumen yang ditunda.",
+        "penangkal": [
+            "Tetap proaktif: jangan menunggu perintah — ambil inisiatif di tempat kerja dan studi.",
+            "Buat daftar urusan administrasi & dokumen; tuntaskan paling lambat 2 minggu setelah jatuh tempo.",
+            "Jangan percaya mentah-mentah figur berwibawa; verifikasi dokumen, kontrak, dan ucapan 'orang besar'.",
+            "Gerakkan tubuh: olahraga 3x seminggu; cek gula darah & kolesterol bila berusia 35+.",
+            "Perkuat unsur 喜用 Anda (lihat panduan warna/angka/arah) untuk menahan energi pasif.",
+        ],
+        "saran": "Perbanyak belajar dan minta bimbingan orang berpengalaman — tetapi tetap jalankan sendiri urusan penting Anda.",
     },
     "偏印": {
         "tema": "tahun riset, intuisi, dan hal-hal unik. Energi pendukung datang dari bidang non-mainstream.",
-        "karir": "Karier menuntut pemikiran di luar kotak; cocok untuk riset, analisis, teknologi, atau profesi spesialis.",
-        "keuangan": "Keuangan pas-pasan menantang; hindari investasi yang belum dipahami benar.",
-        "asmara": "Cenderung menyendiri; komunikasikan perasaan agar tidak salah paham.",
-        "kesehatan": "Perhatikan kesehatan mental; jangan memendam masalah sendirian.",
-        "studi": "Bagus untuk riset mendalam; hindari belajar yang terlalu melompat-lompat.",
-        "saran": "Percaya intuisi, tapi tetap cek fakta sebelum bertindak.",
+        "peluang": {
+            "karier": "Karier menuntut pemikiran di luar kotak — riset, analisis data, teknologi, spiritualitas, atau profesi spesialis sangat diuntungkan. Temuan 'kecil' Anda bisa menjadi terobosan.",
+            "keuangan": "Ada peluang pendapatan dari keahlian khusus dan proyek sampingan yang tidak banyak orang pahami.",
+            "asmara": "Kedalaman batin Anda menarik tipe pasangan yang serius; hubungan bisa berkembang lewat percakapan mendalam, bukan basa-basi.",
+            "kesehatan": "Energi mental kuat untuk meditasi dan pemulihan psikologis.",
+            "studi": "Bagus untuk riset mendalam, skripsi/tesis, dan kajian spesifik; hindari belajar yang melompat-lompat.",
+        },
+        "risiko": {
+            "karier": "Isolasi diri dianggap angkuh; ide non-mainstream bisa ditolak atasan dan membuat Anda frustrasi. Waspadai keputusan besar yang diambil sendirian — berisiko salah arah dan sulit diperbaiki.",
+            "keuangan": "Rentan tertipu investasi 'eksotis' (kripto abal-abal, skema MLM, jual beli ilegal) karena daya tarik keunikan. Uang bisa hangus di proyek yang tidak pernah tuntas.",
+            "asmara": "Cenderung menyendiri dan curiga; kesalahpahaman kecil bisa membesar menjadi perpecahan. Waspadai kecurigaan tanpa bukti.",
+            "kesehatan": "Risiko gangguan tidur, overthinking, stres berkepanjangan, dan kesehatan mental. Insomnia kronis bisa memicu imun tubuh turun.",
+            "studi": "Penelitian bisa tersendat: data hilang, plagiarisme tak sengaja, atau pembimbing yang tidak kooperatif — periksa ulang semua referensi.",
+        },
+        "risiko_utama": "Overthinking, keputusan sendirian yang keliru, dan penipuan berkedok 'ilmu unik' — jangan menutup diri.",
+        "penangkal": [
+            "Jangan ambil keputusan besar sendirian: uji dengan 2–3 orang tepercaya sebelum bertindak.",
+            "Verifikasi fakta: cek legalitas investasi/lembaga (OJK, Kemenkumham) sebelum mengeluarkan uang.",
+            "Jaga jadwal tidur tetap (tidur ≤ 23:00); meditasi/olahraga untuk menyalurkan overthinking.",
+            "Keluar dari ruang tertutup: hadiri komunitas, bagikan riset Anda, minta masukan.",
+            "Tulis setiap keputusan & alasannya — dokumentasi menyelamatkan Anda dari penyesalan.",
+        ],
+        "saran": "Percaya intuisi, tapi tetap cek fakta sebelum bertindak — dan jangan berjalan sendirian.",
     },
     "正官": {
         "tema": "tahun jabatan, reputasi, dan aturan. Dunia 'formal' sedang memperhatikan Anda.",
-        "karir": "Peluang naik jabatan, penugasan resmi, dan pengakuan profesional terbuka lebar.",
-        "keuangan": "Keuangan meningkat seiring karier; tetap disiplin menabung.",
-        "asmara": "Hubungan serius; bagi yang lajang, ada peluang bertemu pasangan lewat lingkungan kerja/formal.",
-        "kesehatan": "Jaga tekanan darah dan manajemen stres karena beban tanggung jawab bertambah.",
-        "studi": "Cocok untuk ujian kedinasan, sertifikasi profesi, dan jenjang akademik.",
-        "saran": "Jaga nama baik dan patuhi aturan; disiplin adalah kunci tahun ini.",
+        "peluang": {
+            "karier": "Peluang naik jabatan, penugasan resmi, dan pengakuan profesional terbuka lebar. Nilai Anda sedang 'terbaca' oleh pimpinan.",
+            "keuangan": "Keuangan meningkat seiring karier; tunjangan dan penghasilan tetap menguat.",
+            "asmara": "Hubungan serius menguat; yang lajang berpeluang bertemu pasangan lewat lingkungan kerja/formal.",
+            "kesehatan": "Disiplin hidup yang Anda jalankan menopang kebugaran.",
+            "studi": "Cocok untuk ujian kedinasan, sertifikasi profesi, dan jenjang akademik yang terstruktur.",
+        },
+        "risiko": {
+            "karier": "Beban tanggung jawab bertambah berat: target tinggi, jam kerja panjang, dan politik kantor. Waspadai fitnah jabatan dan 'teman' yang menjatuhkan di belakang; kesalahan kecil bisa dibesar-besarkan.",
+            "keuangan": "Pengeluaran mengikuti gengsi jabatan (mobil, jamuan, gaya hidup) bisa menggerus tabungan. Waspadai gratifikasi yang berbau pelanggaran.",
+            "asmara": "Jadwal padat membuat rumah tangga diabaikan; pasangan bisa merasa ditinggalkan. Hubungan dengan bawahan/rekan lawan jenis perlu batas tegas.",
+            "kesehatan": "Stres, tekanan darah tinggi, asam lambung, dan sakit kepala tegang — penyakit 'orang sibuk' yang sering diabaikan sampai parah.",
+            "studi": "Belajar terburu-buru karena kesibukan; ujian bisa gagal karena kurang persiapan, bukan karena kemampuan.",
+        },
+        "risiko_utama": "Tekanan jabatan, fitnah, dan kesehatan yang dikorbankan demi karier — jaga keseimbangan.",
+        "penangkal": [
+            "Dokumentasikan setiap pekerjaan (email, laporan, Cc atasan) — bukti adalah perisai terbaik melawan fitnah.",
+            "Patuhi aturan secara ketat; jangan sekali pun menerima gratifikasi atau 'jalan pintas'.",
+            "Kelola stres: olahraga rutin, cukup tidur, dan jadwalkan waktu keluarga sebagai prioritas tetap.",
+            "Cek tekanan darah & asam lambung secara berkala; jangan menunda kontrol kesehatan.",
+            "Batasi hubungan kerja dengan lawan jenis di luar konteks profesional.",
+        ],
+        "saran": "Jaga nama baik dan patuhi aturan; disiplin adalah kunci — tetapi jangan korbankan kesehatan dan keluarga.",
     },
     "七杀": {
         "tema": "tahun tantangan, tekanan, dan persaingan. Medan pertempuran sedang terbuka.",
-        "karir": "Tekanan kerja meningkat; ini ujian ketangguhan. Berani mengambil tanggung jawab besar, tetapi jangan memaksakan diri.",
-        "keuangan": "Keuangan berisiko; hindari utang dan spekulasi besar.",
-        "asmara": "Potensi konflik dengan pasangan; kendalikan emosi dan ego.",
-        "kesehatan": "Rawan kecelakaan kecil dan penyakit mendadak; istirahat cukup, jaga diri ekstra.",
-        "studi": "Belajar penuh tekanan; target ambisius bisa tercapai jika terorganisir.",
-        "saran": "Hadapi tantangan dengan kepala dingin; olahraga untuk melepas stres.",
+        "peluang": {
+            "karier": "Kinerja di bawah tekanan luar biasa dihargai: peluang promosi cepat, menang dalam persaingan sengit, dan menaklukkan proyek yang ditakuti orang lain.",
+            "keuangan": "Berani mengambil peluang besar bisa membawa pendapatan melonjak; bonus dan komisi tinggi menggiurkan.",
+            "asmara": "Daya tarik 'pemimpin' Anda kuat; hubungan bisa menjadi lebih intens dan berapi-api.",
+            "kesehatan": "Adrenalin membuat Anda kuat menahan beban — modal mental untuk melewati masa sulit.",
+            "studi": "Target ambisius bisa tercapai jika dikerjakan dengan organisasi ketat.",
+        },
+        "risiko": {
+            "karier": "Tahun paling rawan konflik terbuka: persaingan tidak sehat, atasan yang memusuhi, ancaman demosi atau PHK. Keputusan cepat di bawah tekanan berisiko salah besar dan disesali.",
+            "keuangan": "Kerugian mendadak bisa terjadi: aset rusak, penipuan, atau utang yang membebani. Jangan mengambil pinjaman besar tahun ini.",
+            "asmara": "Pertengkaran hebat dan perpisahan mengancam; ego dua belah pihak bisa menghancurkan hubungan yang sebenarnya baik. Waspadai kekerasan verbal.",
+            "kesehatan": "PALING RAWAN: kecelakaan, cedera, patah tulang, luka sayat, kecelakaan berkendara, dan penyakit mendadak. Operasi non-darurat sebaiknya dihindari di periode 冲/刑.",
+            "studi": "Tekanan ujian bisa memicu blunder; jawaban terburu-buru, salah baca soal, dan kehilangan fokus.",
+        },
+        "risiko_utama": "Bahaya fisik (kecelakaan/luka), konflik terbuka, dan kerugian mendadak — tahun yang menuntut kewaspadaan ekstra.",
+        "penangkal": [
+            "Keselamatan nomor satu: patuhi rambu, jangan berkendara dengan emosi atau lelah, hindari olahraga ekstrem dan perjalanan malam sendirian.",
+            "Lakukan medical check-up menyeluruh; tangani gejala kecil sebelum menjadi besar.",
+            "Jangan ambil keputusan besar saat emosi memuncak — tunda 24 jam sebelum menandatangani apa pun.",
+            "Salurkan agresivitas lewat olahraga teratur (lari, bela diri, angkat beban) agar tidak meledak ke orang sekitar.",
+            "Hindari konfrontasi di tempat kerja; kendalikan lidah; pilih berunding daripada melawan.",
+            "Perkuat unsur 喜用 Anda (warna/angka/arah) dan lakukan amal/sedekah — secara tradisional menenangkan energi 七杀.",
+        ],
+        "saran": "Hadapi tantangan dengan kepala dingin, jaga keselamatan fisik, dan jangan pernah mengambil keputusan dalam keadaan marah.",
     },
     "正财": {
         "tema": "tahun rezeki utama: gaji, usaha, dan hasil kerja keras. Energi uang sedang mengalir.",
-        "karir": "Kinerja dihargai; cocok mengejar target, kenaikan gaji, atau ekspansi usaha.",
-        "keuangan": "Keuangan membaik; waktu yang tepat menabung, investasi aman, dan melunasi utang.",
-        "asmara": "Hubungan stabil; bagi pria, energi 'istri' positif — cocok menikah atau memperkuat rumah tangga.",
-        "kesehatan": "Baik; jaga pola makan agar tidak kekenyangan saat perayaan.",
-        "studi": "Disiplin belajar membuahkan nilai bagus.",
-        "saran": "Kerja keras Anda akan dibayar; kelola pemasukan dengan bijak.",
+        "peluang": {
+            "karier": "Kinerja dihargai: kenaikan gaji, bonus, target tercapai, dan ekspansi usaha berjalan lancar.",
+            "keuangan": "Keuangan membaik nyata — waktu tepat menabung, investasi aman, dan melunasi utang. Arus kas positif.",
+            "asmara": "Hubungan stabil dan kokoh; bagi pria energi 'istri' positif — cocok menikah atau memperkuat rumah tangga.",
+            "kesehatan": "Kondisi fisik baik; tubuh merespons pola hidup yang teratur.",
+            "studi": "Disiplin belajar membuahkan nilai bagus dan jenjang akademik yang jelas.",
+        },
+        "risiko": {
+            "karier": "Kesuksesan membuat Anda dianggap 'sumber uang' oleh rekan: sering dimintai bantuan, dititipi tanggung jawab orang lain, sampai dibebani kerja ekstra tanpa imbalan.",
+            "keuangan": "Pengeluaran gaya hidup ikut naik bersama penghasilan (makan di luar, gadget, gengsi). Utang konsumtif dan cicilan bisa menggerus; jangan pinjamkan uang dalam jumlah besar.",
+            "asmara": "Pasangan bisa merasa nilai Anda diukur dari uang; komunikasi yang dangkal memicu jarak emosional.",
+            "kesehatan": "Pola makan saat perayaan — kolesterol, asam urat, dan obesitas mengintai di akhir tahun.",
+            "studi": "Terlalu sibuk mencari penghasilan membuat waktu belajar terabaikan.",
+        },
+        "risiko_utama": "Gaya hidup ikut naik & orang lain menganggap Anda 'atm berjalan' — jaga arus kas dan batas diri.",
+        "penangkal": [
+            "Sisihkan tabungan & investasi di awal bulan (min. 20%), sebelum pengeluaran lain.",
+            "Tetapkan batas tegas: jangan meminjamkan uang yang Anda butuhkan; tolak dengan sopan.",
+            "Catat pengeluaran harian; waspadai cicilan baru yang 'kecil-kecil tapi banyak'.",
+            "Batasi perayaan: jaga porsi makan, kurangi alkohol, periksa kolesterol & asam urat.",
+            "Jadwalkan quality time tanpa bahasan uang bersama pasangan.",
+        ],
+        "saran": "Kerja keras Anda akan dibayar — kelola pemasukan dengan bijak dan jangan biarkan gengsi menguras rekening.",
     },
     "偏财": {
         "tema": "tahun rezeki sampingan: bisnis, peluang besar, dan kejutan finansial.",
-        "karir": "Peluang usaha sampingan, proyek besar, atau tawaran menggiurkan bermunculan. Jeli menangkapnya.",
-        "keuangan": "Ada potensi untung besar, tetapi juga risiko besar; kelola dengan hati-hati, jangan serakah.",
-        "asmara": "Karisma naik, banyak perhatian; bagi yang berpasangan, jaga diri dari godaan.",
-        "kesehatan": "Perhatikan pola hidup karena kecenderungan hura-hura; batasi alkohol dan lemak.",
-        "studi": "Bagus untuk beasiswa dan kompetisi; jangan mudah teralihkan.",
-        "saran": "Tangkap peluang besar, tapi pasang batas kerugian sebelum memulai.",
+        "peluang": {
+            "karier": "Peluang usaha sampingan, proyek besar, dan tawaran menggiurkan bermunculan. Karisma bisnis Anda naik; orang mudah percaya pada Anda.",
+            "keuangan": "Potensi untung besar dari bisnis, komisi, dan investasi yang dikelola baik — cuan berlipat sangat mungkin.",
+            "asmara": "Karisma meningkat, banyak perhatian; yang lajang mudah menarik pasangan.",
+            "kesehatan": "Energi sosial yang tinggi membuat Anda aktif dan bersemangat.",
+            "studi": "Cocok untuk beasiswa, kompetisi, dan lomba bergengsi — nama Anda bisa mencuat.",
+        },
+        "risiko": {
+            "karier": "Godaan 'jalan pintas' menguat: proyek ilegal, suap, atau kerja sama dengan pihak tak jelas. Reputasi bisa hancur dalam semalam.",
+            "keuangan": "RISIKO TERBESAR: penipuan investasi, judi, spekulasi berisiko tinggi, dan kerugian besar karena serakah. Uang cepat masuk juga cepat keluar; hutang piutang bisa berantakan.",
+            "asmara": "Godaan selingkuh dan perhatian dari pihak ketiga sangat kuat; keharmonisan rumah tangga bisa goyah karena kesibukan dan kedekatan baru.",
+            "kesehatan": "Pola hidup hura-hura: alkohol, kurang tidur, makan berlebihan — hati dan metabolisme terbebani.",
+            "studi": "Mudah teralihkan oleh tawaran uang cepat; fokus akademik bisa hancur.",
+        },
+        "risiko_utama": "Serakah = bumerang: penipuan, spekulasi, dan godaan di luar komitmen — pasang batas sebelum bermain.",
+        "penangkal": [
+            "Tetapkan batas kerugian (stop-loss) SEBELUM memulai investasi/bisnis; jangan pernah mempertaruhkan dana darurat.",
+            "Cek legalitas semua tawaran (ijin OJK/Kemenkumham); jangan percaya 'jaminan untung' apa pun bentuknya.",
+            "Pisahkan uang bisnis dan uang keluarga; catat semua transaksi.",
+            "Jaga komitmen: batasi kedekatan dengan lawan jenis, perkuat komunikasi pasangan, jangan sembunyikan aktivitas.",
+            "Batasi alkohol dan pesta; tidur cukup; jaga pola makan.",
+            "Jika rezeki besar datang, sisihkan 30% untuk tabungan & amal sebelum membelanjakan sisanya.",
+        ],
+        "saran": "Tangkap peluang besar, tapi pasang batas kerugian dan jaga komitmen — serakah adalah awal kehancuran.",
     },
     "比肩": {
         "tema": "tahun kemandirian, persaingan, dan teman. Energi 'sesama' sedang kuat.",
-        "karir": "Persaingan ketat; andalkan kekuatan sendiri, tetapi jangan menolak kerja sama.",
-        "keuangan": "Pengeluaran untuk relasi meningkat; hindari jadi penjamin utang teman.",
-        "asmara": "Ego bisa memicu pertengkaran; belajar mengalah.",
-        "kesehatan": "Cukup baik; waspadai kelelahan karena terlalu banyak aktivitas.",
-        "studi": "Belajar mandiri efektif; bergabung kelompok belajar untuk saling menguatkan.",
-        "saran": "Berdiri di atas kaki sendiri, tapi tetap jaga relasi.",
+        "peluang": {
+            "karier": "Kemandirian menguat: cocok membangun usaha sendiri, freelance, atau mengambil peran pemimpin tim. Saingan membuat Anda lebih tajam.",
+            "keuangan": "Penghasilan dari kerja mandiri dan usaha pribadi bisa melonjak.",
+            "asmara": "Hubungan setara dan saling menghargai; waktu baik mempertegas komitmen.",
+            "kesehatan": "Cukup baik — tubuh kuat menahan aktivitas padat.",
+            "studi": "Belajar mandiri sangat efektif; kelompok belajar yang sehat saling menguatkan.",
+        },
+        "risiko": {
+            "karier": "Persaingan tidak sehat: rekan berebut posisi, proyek disabotase halus, dan klaim hasil kerja oleh orang lain. Ego membuat Anda sulit bekerja sama.",
+            "keuangan": "Pengeluaran untuk relasi membengkak (traktiran, sumbangan, pinjaman teman yang tak kembali). Menjadi penjamin utang orang lain adalah jebakan terbesar.",
+            "asmara": "Ego dan gengsi memicu pertengkaran; sulit mengalah membuat masalah kecil membesar. Waspadai persaingan dengan pasangan.",
+            "kesehatan": "Kelelahan karena terlalu banyak aktivitas sosial; tubuh dipaksa terus 'on'.",
+            "studi": "Terlalu yakin diri: malas bertanya, mengabaikan bimbingan, dan nilai terkoreksi karena kesombongan.",
+        },
+        "risiko_utama": "Ego & gengsi: konflik rekan, jadi penjamin utang, dan pertengkaran karena harga diri.",
+        "penangkal": [
+            "JANGAN menjadi penjamin/pemberi pinjaman untuk teman tahun ini — tolak dengan sopan dan tegas.",
+            "Pisahkan uang pribadi, uang usaha, dan urusan pertemanan; catat setiap transaksi.",
+            "Latih mengalah: pilih menang dalam hubungan daripada menang dalam argumen.",
+            "Kurangi acara yang menguras energi; tidur cukup; tahu kapan harus pulang.",
+            "Di tempat kerja: akui kontribusi orang lain dan minta pengakuan Anda secara tertulis (email/report).",
+        ],
+        "saran": "Berdiri di atas kaki sendiri, tapi jaga relasi — menang sendirian tidak ada artinya jika kehilangan orang-orang terdekat.",
     },
     "劫财": {
         "tema": "tahun pengeluaran tak terduga dan relasi yang menguras. Berhati-hatilah dengan 'teman'.",
-        "karir": "Rezeki ada tetapi cepat keluar; waspadai mitra yang bermasalah dan janji palsu.",
-        "keuangan": "Rentan bocor: pinjaman, ditipu, atau pengeluaran impulsif. Catat setiap rupiah.",
-        "asmara": "Ada pihak ketiga/gangguan; perkuat komunikasi dengan pasangan.",
-        "kesehatan": "Jaga kesehatan pencernaan dan hindari minuman keras.",
-        "studi": "Jangan mudah terganggu ajakan teman; fokus pada target.",
-        "saran": "Disiplin anggaran; jangan meminjamkan uang yang Anda butuhkan.",
+        "peluang": {
+            "karier": "Jaringan Anda meluas; semangat dan keberanian tinggi untuk memulai hal baru.",
+            "keuangan": "Bantuan teman dan koneksi bisa membuka pintu rezeki (referensi kerja, order, informasi lowongan).",
+            "asmara": "Kehidupan sosial ramai; keberanian menyatakan perasaan meningkat.",
+            "kesehatan": "Energi fisik cenderung tinggi; semangat juang kuat untuk aktivitas dan olahraga — asal dijaga keteraturannya.",
+            "studi": "Kerja kelompok bisa mempercepat pemahaman materi.",
+        },
+        "risiko": {
+            "karier": "Rezeki ada tetapi cepat bocor; mitra 'teman' bisa bermasalah — janji palsu, proyek mangkrak, atau mengambil porsi hasil lebih besar. Waspadai pengkhianatan rekan.",
+            "keuangan": "TAHUN PALING RAWAN BOCOR: uang hilang, dicuri, ditipu, dipinjam tak kembali, atau hilang karena pengeluaran impulsif. Rekening bisa terkuras tanpa disadari.",
+            "asmara": "PIHAK KETIGA MENGANCAM: godaan selingkuh, orang lain ikut campur rumah tangga, dan perselingkuhan pasangan — rumah tangga rawan retak bahkan cerai.",
+            "kesehatan": "Pencernaan terganggu, kecenderungan alkohol berlebih, dan cedera kecil karena kecerobohan.",
+            "studi": "Ajakan teman menggoyahkan fokus; bolos, begadang, dan gengsi sosial merusak target.",
+        },
+        "risiko_utama": "Bocornya uang (ditipu/dicuri/dipinjam) & pihak ketiga dalam asmara — tahun paling harus menjaga batas.",
+        "penangkal": [
+            "Catat setiap rupiah; kurangi membawa uang tunai besar; kunci aset dan dokumen penting.",
+            "Jangan pernah meminjamkan uang; jangan tanda tangan apa pun sebagai penjamin.",
+            "Perkuat komunikasi dengan pasangan: transparansi jadwal, hindari rahasia, pertegas batas dengan lawan jenis.",
+            "Hindari alkohol dan judi; batasi 'traktiran' dan pengeluaran impulsif.",
+            "Konsultasikan semua investasi/kerja sama dengan pihak yang benar-benar netral.",
+            "Perkuat unsur 喜用 (warna/angka/arah) dan beramal secara teratur untuk menstabilkan energi.",
+        ],
+        "saran": "Disiplin anggaran, jaga batas pertemanan, dan pegang erat komitmen — jangan biarkan orang lain menguras apa yang Anda bangun.",
     },
     "食神": {
         "tema": "tahun kreativitas, karya, dan kenikmatan hidup. Rezeki datang dari bakat.",
-        "karir": "Cocok meluncurkan produk, karya seni, atau inovasi; hasil kerja Anda diapresiasi publik.",
-        "keuangan": "Rezeki mengalir dari karya dan keahlian; peluang mengembangkan usaha kuliner/kreatif.",
-        "asmara": "Suasana hangat dan romantis; waktu yang baik untuk quality time.",
-        "kesehatan": "Bagus — energi positif; jaga berat badan karena nafsu makan meningkat.",
-        "studi": "Belajar terasa ringan; hasilkan karya tulis/proyek yang dipamerkan.",
-        "saran": "Salurkan kreativitas; jangan menunda ide yang sudah matang.",
+        "peluang": {
+            "karier": "Cocok meluncurkan produk, karya seni, konten, atau inovasi — hasil kerja Anda diapresiasi publik. Karier kreatif bersinar.",
+            "keuangan": "Rezeki mengalir dari karya dan keahlian; usaha kuliner, seni, dan konten kreatif sangat menguntungkan.",
+            "asmara": "Suasana hangat dan romantis; waktu terbaik quality time, lamaran, atau mempererat ikatan.",
+            "kesehatan": "Energi positif dan kreatif — pemulihan cepat.",
+            "studi": "Belajar terasa ringan; hasilkan karya tulis/proyek yang bisa dipamerkan dan dinilai.",
+        },
+        "risiko": {
+            "karier": "Karya Anda berisiko ditiru, dibajak, atau diklaim orang lain tanpa izin. Terlalu santai ('nanti saja') membuat peluang besar lewat di depan mata.",
+            "keuangan": "Nafsu makan dan gaya hidup 'menikmati hidup' menguras: makan di luar, hobi mahal, dan pembelian impulsif 'self reward'.",
+            "asmara": "Terlalu nyaman bisa terkesan tidak serius; pasangan mungkin merasa kurang diperjuangkan.",
+            "kesehatan": "Berat badan naik, kolesterol, gula darah, dan asam urat — kenikmatan kuliner adalah musuh terbesar tahun ini.",
+            "studi": "Kemalasan manis: menunda tugas, mengerjakan seadanya, dan puas dengan nilai pas-pasan.",
+        },
+        "risiko_utama": "Karya dibajak/diklaim orang lain & pola makan 'menikmati hidup' yang menggerus kesehatan.",
+        "penangkal": [
+            "Daftarkan kekayaan intelektual (HAKI/merek) untuk karya Anda; simpan bukti proses kreatif.",
+            "Tetap disiplin waktu: jadwal produksi ketat, jangan menunda ide yang sudah matang.",
+            "Kendalikan porsi makan; kurangi gula & alkohol; olahraga teratur; pantau berat badan.",
+            "Tetapkan anggaran 'kesenangan' bulanan agar kenikmatan tidak menjadi pemborosan.",
+            "Tunjukkan keseriusan pada pasangan: rencana masa depan yang konkret.",
+        ],
+        "saran": "Salurkan kreativitas, lindungi karya Anda, dan jangan biarkan kenikmatan hidup menguasai kesehatan dan tabungan.",
     },
     "伤官": {
         "tema": "tahun bakat, inovasi, dan keinginan bebas. Energi 'membongkar' sedang aktif.",
-        "karir": "Ide cemerlang tetapi rawan konflik dengan atasan/aturan; sampaikan pendapat dengan sopan.",
-        "keuangan": "Pendapatan dari bakat bisa bagus, tetapi gaya hidup boros menggerus; buat anggaran.",
-        "asmara": "Emosi naik-turun; hindari berkata-kata tajam yang melukai pasangan.",
-        "kesehatan": "Perhatikan tenggorokan, kulit, dan kecenderungan begadang.",
-        "studi": "Kreativitas tinggi; cocok lomba, karya ilmiah, dan proyek inovatif.",
-        "saran": "Salurkan energi lewat karya; kendalikan lidah di tempat kerja.",
+        "peluang": {
+            "karier": "Ide cemerlang bertebaran — lomba, karya ilmiah, inovasi produk, dan proyek kreatif berpeluang besar meraih pengakuan.",
+            "keuangan": "Pendapatan dari bakat dan keterampilan khusus bisa sangat baik; tawaran proyek berdatangan.",
+            "asmara": "Daya tarik kuat dan percakapan hidup; hubungan bergairah.",
+            "kesehatan": "Energi muda yang tinggi untuk aktivitas fisik dan olahraga baru — tubuh merespons dengan baik selama dijaga keteraturannya.",
+            "studi": "Kreativitas tinggi: cocok olimpiade, lomba karya tulis, dan penelitian inovatif.",
+        },
+        "risiko": {
+            "karier": "PALING RAWAN KONFLIK DENGAN ATASAN/ATURAN: kritik pedas, surat peringatan, demosi, bahkan kehilangan pekerjaan. Pernyataan publik yang 'blak-blakan' bisa menjadi senjata makan tuan.",
+            "keuangan": "Pendapatan besar tapi gaya hidup boros; risiko denda, denda pajak, atau biaya hukum karena kelalaian administrasi.",
+            "asmara": "Emosi naik-turun; kata-kata tajam bisa melukai pasangan — risiko putus/cerai karena ucapan, bukan karena perasaan hilang.",
+            "kesehatan": "Gangguan tenggorokan (suara, amandel), kulit (jerawat/eksim), dan kecenderungan begadang yang merusak imun.",
+            "studi": "Kritik terhadap dosen/pembimbing bisa berbalik: nilai dihambat, proyek dihentikan, atau tuduhan pelanggaran.",
+        },
+        "risiko_utama": "Lidah adalah pedang: konflik dengan otoritas (SP/demosi/PHK), perkataan melukai pasangan, dan risiko hukum.",
+        "penangkal": [
+            "Kendalikan lidah: sampaikan kritik secara tertulis (email yang sopan), bukan di forum atau media sosial.",
+            "Jangan pernah berkomentar negatif tentang atasan di depan kolega — bisa kembali sebagai bumerang.",
+            "Dokumentasikan semua komunikasi kerja; jaga administrasi & pajak tetap rapi.",
+            "Jangan mengambil keputusan emosional untuk mengundurkan diri/menikah/cerai dalam keadaan marah.",
+            "Jaga tenggorokan & kulit; tidur sebelum jam 23:00; hindari begadang beruntun.",
+            "Salurkan energi 'membongkar' lewat karya: tulis kritik membangun, buat karya inovatif, bukan konfrontasi.",
+        ],
+        "saran": "Salurkan energi lewat karya, kendalikan lidah, dan jangan pernah berperang dengan aturan saat emosi memuncak.",
     },
 }
 
@@ -219,23 +400,68 @@ def _da_yun_quality(dy: DaYun) -> str:
 
 
 # ---------------------------------------------------------------------------
+# PENANGKAL (agar bahaya batal terjadi)
+# ---------------------------------------------------------------------------
+
+def penangkal_flags(flags: list) -> list:
+    """Penangkal khusus interaksi tahun (冲/刑/害/空亡/桃花)."""
+    out = []
+    for f in flags:
+        if f.startswith("冲"):
+            out.append("Energi 冲 (benturan) → tunda keputusan besar di periode cabang bentrok: "
+                       "pindah rumah, menikah, operasi non-darurat, tanda tangan kontrak besar. "
+                       "Redam dengan perkuatan unsur 喜用 Anda.")
+        elif "刑" in f:
+            out.append("Energi 刑 (hukuman) → hindari konfrontasi hukum dan perkara; periksa "
+                       "kontrak & dokumen dua kali; jaga kesehatan ekstra.")
+        elif "害" in f:
+            out.append("Energi 害 (gangguan) → waspada fitnah dan orang dekat yang diam-diam "
+                       "merugikan; jangan bercerita terlalu terbuka; simpan bukti transaksi.")
+        elif "空亡" in f:
+            out.append("Kena 空亡 (cabang kosong) → jangan mengejar hasil instan di bidang yang "
+                       "'kosong'; bereskan urusan lama yang menggantung; perkuat bidang unsur 喜用.")
+        elif "桃花" in f:
+            out.append("桃花 aktif (bunga cinta) → jaga komitmen dan komunikasi dengan pasangan; "
+                       "hindari kedekatan ambigu; batasi hubungan yang tidak jelas arahnya.")
+    return out
+
+
+def penangkal_elemen(chart: Chart) -> list:
+    """Penangkal berbasis unsur keberuntungan (喜用): warna/angka/arah."""
+    out = []
+    for el in chart.favorable:
+        luck = element_lucky(el)
+        out.append(f"Perkuat unsur {el} ({ELEMENT_NAME[el]}): warna {luck['color']}, "
+                   f"angka {luck['number']}, arah {luck['direction']}.")
+    return out
+
+
+def penangkal_umum(score: int) -> list:
+    if score >= 70:
+        return ["Tahun positif — kunci keberhasilannya: tetap disiplin, jangan jemawa, dan "
+                "sisihkan sebagian rezeki untuk tabungan & amal agar keberuntungan bertahan."]
+    if score <= 44:
+        return ["Tahun berat — kunci keselamatannya: kurangi ekspansi, perbanyak cadangan dana, "
+                "jaga kesehatan preventif, dan jangan mengambil keputusan besar di bawah tekanan."]
+    return ["Tahun campuran — jalani dengan tenang: catat pengeluaran, jaga pola tidur, dan "
+            "selesaikan satu prioritas dalam satu waktu."]
+
+
+# ---------------------------------------------------------------------------
 # UTILITAS FORMAT
 # ---------------------------------------------------------------------------
 
 def bar(value: float, total: float, width: int = 18) -> str:
-    """Grafik batang teks."""
     ratio = value / total if total else 0
     filled = int(round(ratio * width))
     return "█" * filled + "░" * (width - filled)
 
 
 def wlen(s: str) -> int:
-    """Lebar tampilan string dengan memperhitungkan karakter CJK (lebar ganda)."""
     return sum(2 if unicodedata.east_asian_width(c) in ("W", "F") else 1 for c in s)
 
 
 def pad(s, width: int) -> str:
-    """Pad kanan dengan perhitungan lebar CJK agar tabel rapi di terminal."""
     return s + " " * max(0, width - wlen(str(s)))
 
 
@@ -244,9 +470,9 @@ def line(char: str = "-", width: int = 72) -> str:
 
 
 def center(text: str, width: int = 72, fill: str = "=") -> str:
-    pad = max(0, width - len(text))
-    left = pad // 2
-    return fill * left + text + fill * (pad - left)
+    p = max(0, width - len(text))
+    left = p // 2
+    return fill * left + text + fill * (p - left)
 
 
 # ---------------------------------------------------------------------------
@@ -326,7 +552,6 @@ def element_analysis(chart: Chart) -> str:
     weakest = ranked[-1][0]
     s.append(f"  → Unsur terkuat: {ELEMENT_NAME[strongest]} ({strongest});  "
              f"terlemah: {ELEMENT_NAME[weakest]} ({weakest}).")
-    # rincian per posisi
     s.append("")
     s.append("  Rincian bobot per posisi:")
     for pname, det in chart.element_detail.items():
@@ -491,27 +716,36 @@ def _dy_advice(dy: DaYun) -> str:
 
 
 def liu_nian_report(lns: list, chart: Chart, year_from: int, year_to: int) -> str:
+    """流年 dengan narasi LENGKAP & LUGAS: peluang, risiko, penangkal, saran."""
     s = []
-    # ringkasan rentang
     s.append(f"  Rentang: {year_from}-{year_to} (usia {year_from - chart.birth.year}–"
              f"{year_to - chart.birth.year} tahun). Skor 0-100; semakin tinggi semakin baik.")
     s.append("")
+    ASPEK = ["karier", "keuangan", "asmara", "kesehatan", "studi"]
     for ln in lns:
         shio = SHIO[BRANCHES.index(ln.branch)]
         s.append(f"  {line('-', 68)}")
         s.append(f"  {ln.year} — {ln.gan_zhi} ({ELEMENT_NAME[ln.stem_element]} "
                  f"{ln.stem_element}, shio {shio}) — usia {ln.age} th — "
                  f"SKOR {ln.score}/100 — {ln.grade}")
-        tg = ln.ten_god_stem
-        info = TEN_GOD_YEAR.get(tg)
+        info = TEN_GOD_YEAR.get(ln.ten_god_stem)
         if info:
             s.append(f"  Tema besar : {info['tema']}")
-            s.append(f"  Karier     : {info['karir']}")
-            s.append(f"  Keuangan   : {info['keuangan']}")
-            s.append(f"  Asmara     : {info['asmara']}")
-            s.append(f"  Kesehatan  : {info['kesehatan']}")
-            s.append(f"  Studi      : {info['studi']}")
-            s.append(f"  Saran      : {info['saran']}")
+            s.append("  - PELUANG & KEBAIKAN:")
+            for k in ASPEK:
+                s.append(f"      {k.capitalize():<9}: {info['peluang'][k]}")
+            s.append("  ! RISIKO & TANDA BAHAYA (jangan diabaikan):")
+            for k in ASPEK:
+                s.append(f"      {k.capitalize():<9}: {info['risiko'][k]}")
+            s.append("  # PENANGKAL (agar bahaya batal terjadi):")
+            for p in info["penangkal"]:
+                s.append(f"      - {p}")
+            pn_flags = penangkal_flags(ln.flags)
+            if pn_flags:
+                s.append("  # Penangkal khusus interaksi tahun ini:")
+                for p in pn_flags:
+                    s.append(f"      - {p}")
+            s.append(f"  - Saran     : {info['saran']}")
         if ln.flags:
             neg = [f for f in ln.flags if any(k in f for k in ("冲", "刑", "害", "空亡"))]
             pos = [f for f in ln.flags if any(k in f for k in ("合", "桃花"))]
@@ -550,6 +784,9 @@ def disclaimer() -> str:
         "Hasil ini\n"
         "    adalah interpretasi simbolik untuk refleksi & hiburan, BUKAN kepastian "
         "ilmiah.\n"
+        "    Uraian risiko di atas adalah peringatan simbolis agar Anda lebih waspada —\n"
+        "    bukan vonis. Dengan sikap hati-hati dan penangkal yang dijalankan, sebagian\n"
+        "    besar 'bahaya' dapat dibatalkan.\n"
         "  • Keputusan penting (keuangan, kesehatan, karier, pernikahan) tetap "
         "berdasarkan\n"
         "    pertimbangan rasional dan nasihat profesional.\n"
